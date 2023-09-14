@@ -314,7 +314,7 @@
        display:block;
        width:600px;
        height:600px;
-       margin-left: 60%;
+       margin-left: 50%;
        padding-top:90px;
        padding-bottom:-50px;
       
@@ -372,9 +372,12 @@
        scroll-behavior: smooth;
        margin-bottom:50px;
        font-family: 'Righteous', cursive;
-       border-radius: 20%;
+       border-radius:60%;
        max-width:50%;
-       margin-right:62%;
+       margin-right:51%;
+       padding-left:100px;
+       padding-right:100px;
+       
  
  
     
