@@ -268,7 +268,7 @@
  
     nav{
        text-decoration: none;
-       padding:25px;
+       padding-bottom:38px;
     
     }
     
@@ -312,11 +312,11 @@
  
     .girl{
        display:block;
-       width:600px;
-       height:600px;
+       width:500px;
+       height:500px;
        margin-left: 50%;
-       padding-top:90px;
-       padding-bottom:-50px;
+       padding-top:15px;
+       padding-bottom:-40px;
       
       
     }
@@ -344,7 +344,7 @@
     }
     
     h4{
-       font-size:2rem;
+       font-size:20px;
        color:#00FFC2;
        font-family: 'Righteous', cursive;
        -webkit-text-stroke-width: 1px;
@@ -356,13 +356,13 @@
        margin-right:62%;
        margin-top:-2rem;
        max-width:50%;
-       padding-left:95px;
+       padding-left:120px;
     
     }
  
  
     button{
-       padding: 18px 35px;
+       padding: 14px 31px;
        border:none;
        font-size:50px;
        background-color: #000000;
@@ -372,7 +372,7 @@
        scroll-behavior: smooth;
        margin-bottom:50px;
        font-family: 'Righteous', cursive;
-       border-radius:60%;
+       border-radius:60px;
        max-width:50%;
        margin-right:51%;
        padding-left:100px;
