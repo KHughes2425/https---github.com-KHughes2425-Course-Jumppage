@@ -407,9 +407,9 @@
  
  
     main{
-       display:flex;
-       flex-direction:row;
-       padding-right:50%;
+       display:grid;
+       justify-content: space-evenly;
+       grid-template-areas: "Flip-box-inner Flip-box-inner Flip-box-inner";
  
  
     }
@@ -419,7 +419,6 @@
        background-color:transparent;
        width:300px;
        height: 200px;
-       border: 1px solid #f1f1f1;
     }
  
  
@@ -478,17 +477,11 @@
        padding:3px;
 
     }
- 
- 
- 
- 
- 
     
  
- 
-    
-    
- }
+}
+
+
  
  
  
