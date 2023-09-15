@@ -477,7 +477,13 @@
        padding:3px;
 
     }
-    
+
+    footer{
+        position:relative;
+        margin-top:10rem;
+        background-color: #12012c;
+    }
+
  
 }
 
