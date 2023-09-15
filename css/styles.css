@@ -34,11 +34,46 @@
  }
  
  
- nav{
-    text-decoration: none;
+ .main-nav{
+   position:fixed;
+   z-index:10;
+   background:rgba(190, 100, 120, .9);
+   padding:1rem;
+   width:100vw;
+   height:100vh;
+   left:-110vw;
+   top:0;
+   transition:left 0.35s ease; 
  
  
  }
+
+ .show {
+   left:0rem;
+   transition:left 0.35s ease;
+}
+
+@media screen and (min-width:720px){
+   body {
+       margin:0;
+       padding-top:5rem;
+   }
+   .main-nav {
+       width:100vw;
+       height:auto;
+       left:0;
+       position:fixed;
+       top:0;
+   }
+
+   .main-nav li{
+       display:inline-block;
+   }
+
+   .menu-btn {
+       display:none;
+   }
+}
  
  
  nav ul{
