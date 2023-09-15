@@ -56,7 +56,7 @@
 
  .show {
    left:0rem;
-   transition:left 1s ease;
+   transition:left 0.35\s ease;
 }
 
 @media screen and (min-width:720px){
