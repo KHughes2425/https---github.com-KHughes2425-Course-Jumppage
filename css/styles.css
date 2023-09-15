@@ -454,11 +454,30 @@
  
  
     .flip-box-back{
-       background-color: #26012C;
+       background-color: #120043;
        color:#f1f1f1;
-       transform: rotateY(180deg);
+       transform: rotateY(180deg);;
+    }
+
+    .flip-box-back li{
+        list-style-type: none;
+        padding:1px;
+        padding-bottom:5px;
+        font-family: 'Righteous', cursive;
+        font-weight: normal;
+        font-size: 15px;
+
+
     }
  
+    .flip-box-back h6{
+       font-family: 'Righteous', cursive;
+       font-weight:normal;
+       background-color: #000000;
+       font-size:1rem;
+       padding:3px;
+
+    }
  
  
  
