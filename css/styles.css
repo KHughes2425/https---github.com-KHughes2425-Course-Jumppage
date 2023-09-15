@@ -37,7 +37,7 @@
  .main-nav{
    position:fixed;
    z-index:10;
-   background:rgba(190, 100, 120, .9);
+   background:#120043;
    padding:1rem;
    width:100vw;
    height:100vh;
@@ -48,9 +48,15 @@
  
  }
 
+ .menu-btn{
+   font-family: 'Righteous', cursive;
+
+
+ }
+
  .show {
    left:0rem;
-   transition:left 0.35s ease;
+   transition:left 1s ease;
 }
 
 @media screen and (min-width:720px){
