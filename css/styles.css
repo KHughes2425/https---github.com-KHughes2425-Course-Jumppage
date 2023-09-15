@@ -184,7 +184,7 @@ h4{
 
 
 button{
-   padding: 18px 35px;
+   padding: 26px 42px;
    border:none;
    font-size:50px;
    background-color: #000000;
@@ -512,7 +512,7 @@ footer p{
 
    footer{
        position:relative;
-       margin-top:10rem;
+       margin-top:1rem;
        background-color: #12012c;
    }
 
@@ -523,6 +523,11 @@ footer p{
    .links{
       display:flex;
       flex-direction: column;
+      min-width:60%;
+      max-width:60%;
+      margin: 0 auto;
+      width:500px;
+
    }
 
 
