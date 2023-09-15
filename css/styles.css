@@ -87,7 +87,7 @@
  
  
  .welcome{
-    background-color:#3C0046;
+    background-color:#1b0046;
  }
  
  
@@ -256,7 +256,7 @@
     header{
        display:flex;
        flex-direction: row;
-       background-color:#26012C;
+       background-color:#12012c;
     }
  
  
@@ -284,7 +284,7 @@
     nav li{
        color:white;
        text-decoration: none;
-       font-size:2rem;
+       font-size:1.5rem;
        list-style-type: none;
        font-family: 'Righteous', cursive;
        font-weight:normal;
@@ -325,7 +325,7 @@
     h3{
        font-size:5rem;
        color:#ffffff;
-       -webkit-text-stroke-width: 3px;
+       -webkit-text-stroke-width: 2px;
        -webkit-text-stroke-color: #000000;
        font-family: 'Righteous', cursive;
        text-align: left;
@@ -362,21 +362,21 @@
  
  
     button{
-       padding: 14px 31px;
        border:none;
-       font-size:50px;
+       font-size:30px;
        background-color: #000000;
        color:#ffffff;
        cursor: pointer;
-       margin: 4px 2px;
+       margin: 6px 4px;
        scroll-behavior: smooth;
        margin-bottom:50px;
+       margin-top:5px;
        font-family: 'Righteous', cursive;
        border-radius:60px;
        max-width:50%;
-       margin-right:51%;
-       padding-left:100px;
-       padding-right:100px;
+       margin-right:47%;
+       padding-left:150px;
+       padding-right:150px;
        
  
  
