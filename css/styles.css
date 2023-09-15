@@ -33,6 +33,10 @@ h1{
    font-weight: normal;
 }
 
+.links{
+   width :80%;
+   margin: 0 auto;
+}
 .mobile{
    background-color: rgb(246, 145, 250);
 }
@@ -513,7 +517,12 @@ footer p{
    }
 
    .mobile{
-      display:none;
+      display:block;
+   }
+
+   .links{
+      display:flex;
+      flex-direction: column;
    }
 
 
