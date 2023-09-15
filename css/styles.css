@@ -15,7 +15,7 @@ body{
 header{
    display:flex;
    flex-direction: column;
-   background-color: #26012C;
+   background-color: #12012c;
    justify-content: space-evenly;
    margin:0;
    padding:0%;
@@ -31,6 +31,10 @@ h1{
    font-family: 'Cedarville Cursive', cursive;
    padding-bottom:10px;
    font-weight: normal;
+}
+
+.mobile{
+   background-color: aqua;
 }
 
 
